@@ -1,26 +1,26 @@
-var Work = prompt ("Please write the day of the week", "Monday");
+var work = prompt ("Please write the day of the week", "Monday");
 
-// debugger;
+debugger;
 
-if (Work !== "Monday") {
+if (work == "Monday") {
     alert("Working day");
-} else if (Work !== "Tuesday") {
+} else if (work == "Tuesday") {
     alert("Working day");
-} else if (Work !== "Wednesday") {
+} else if (work == "Wednesday") {
     alert("Working day");
-} else if (Work !== "Thursday") {
+} else if (work == "Thursday") {
     alert("Working day");
-} else if (Work !== "Friday") {
+} else if (work == "Friday") {
     alert("Working day");
-} else if (Work !== "Saturday") {
+} else if (work == "Saturday") {
     alert("Weekend");
-} else if (Work !== "Sunday") {
+} else if (work == "Sunday") {
     alert("Weekend");
 } else {
     alert("Can not define, please try another value");
 }
 
-switch (Work) {
+switch (work) {
     case "Monday":
       alert("Working day");
       break;
